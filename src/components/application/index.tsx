@@ -8,6 +8,7 @@ export const Application = () => {
         src="https://imgs.search.brave.com/7873IszR6dVTgUb2KEIHirplceDgRSr_0oVJxt1Th6E/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/RktmSks2Y1NLSXRn/dUVlVGJyam5nSGFF/byZwaWQ9QXBp"
         alt="dog images"
       />
+      <span title="close">X</span>
       <form>
         <div>
           <label htmlFor="name">Name</label>

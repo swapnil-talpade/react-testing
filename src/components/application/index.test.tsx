@@ -21,6 +21,9 @@ describe("Application", () => {
     const imageElement = screen.getByAltText("dog images");
     expect(imageElement).toBeInTheDocument();
 
+    const closeElement = screen.getByTitle("close");
+    expect(closeElement).toBeInTheDocument();
+
     const nameElement = screen.getByRole("textbox", {
       name: "Name",
     });
