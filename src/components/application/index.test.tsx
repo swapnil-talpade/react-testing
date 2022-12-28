@@ -21,6 +21,9 @@ describe("Application", () => {
     const imageElement = screen.getByAltText("dog images");
     expect(imageElement).toBeInTheDocument();
 
+    const customElement = screen.getByTestId("custom-element");
+    expect(customElement).toBeInTheDocument();
+
     const closeElement = screen.getByTitle("close");
     expect(closeElement).toBeInTheDocument();
 

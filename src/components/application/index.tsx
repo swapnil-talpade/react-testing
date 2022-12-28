@@ -9,6 +9,7 @@ export const Application = () => {
         alt="dog images"
       />
       <span title="close">X</span>
+      <div data-testid="custom-element">Custom HTML element</div>
       <form>
         <div>
           <label htmlFor="name">Name</label>
