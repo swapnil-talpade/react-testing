@@ -4,6 +4,10 @@ export const Application = () => {
       <h1>Job Aplication</h1>
       <h2>Section 1</h2>
       <p>All field are mandatory</p>
+      <img
+        src="https://imgs.search.brave.com/7873IszR6dVTgUb2KEIHirplceDgRSr_0oVJxt1Th6E/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/RktmSks2Y1NLSXRn/dUVlVGJyam5nSGFF/byZwaWQ9QXBp"
+        alt="dog images"
+      />
       <form>
         <div>
           <label htmlFor="name">Name</label>
