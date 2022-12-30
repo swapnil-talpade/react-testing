@@ -1,5 +1,5 @@
-import React from "react";
-import { CounterTwoProps } from "./index.types";
+import React from 'react'
+import { CounterTwoProps } from './index.types'
 
 const CounterTwo = (props: CounterTwoProps) => {
   return (
@@ -13,7 +13,7 @@ const CounterTwo = (props: CounterTwoProps) => {
         <button onClick={props.handleDecrement}>Decrement</button>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default CounterTwo;
+export default CounterTwo

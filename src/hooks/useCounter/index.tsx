@@ -1,10 +1,10 @@
-import { useState } from "react";
-import { UseCounterProps } from "./index.types";
+import { useState } from 'react'
+import { UseCounterProps } from './index.types'
 
 export const useCounter = ({ initialCount = 0 }: UseCounterProps = {}) => {
-  const [count, setCount] = useState(initialCount);
+  const [count, setCount] = useState(initialCount)
 
-  const increment = () => setCount(count + 1);
-  const decrement = () => setCount(count - 1);
-  return { count, increment, decrement };
-};
+  const increment = () => setCount(count + 1)
+  const decrement = () => setCount(count - 1)
+  return { count, increment, decrement }
+}

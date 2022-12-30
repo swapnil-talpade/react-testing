@@ -1,11 +1,11 @@
-import { useTheme } from "@emotion/react";
-import { Typography } from "@mui/material";
+import { useTheme } from '@emotion/react'
+import { Typography } from '@mui/material'
 
 const MUiMode = () => {
-  const theme: any = useTheme();
+  const theme: any = useTheme()
   return (
-    <Typography component={"h1"}>{`${theme.palette.mode} mode`}</Typography>
-  );
-};
+    <Typography component={'h1'}>{`${theme.palette.mode} mode`}</Typography>
+  )
+}
 
-export default MUiMode;
+export default MUiMode
